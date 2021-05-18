@@ -7,3 +7,11 @@ James Patton
 
   Went bad scrapped project after 4   hours working is sales force
   Applying permissions without   understanding what they did (had to go back and look at security badge)
+  
+  Saief Sayed
+  
+  What Went well
+    * Keeping the data model simple, helped me to implement a lot of the requirements, I.e security, page layouts etc
+ 
+  What went bad
+    * Not having enough fields, so I can make use of dynamic forms
