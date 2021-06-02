@@ -37,6 +37,7 @@
         <name>Flow</name>
     </types>
     <types>
+      <members>Product2</members>
       <members>*</members>
       <name>CustomObject</name>
    </types>
