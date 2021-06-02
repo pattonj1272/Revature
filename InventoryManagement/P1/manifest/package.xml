@@ -38,6 +38,8 @@
     </types>
     <types>
       <members>Product2</members>
+      <members>PriceBook2</members>
+      <members>PriceBookEntry</members>
       <members>*</members>
       <name>CustomObject</name>
    </types>
