@@ -53,6 +53,10 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>UserManagement</members>
+        <name>Settings</name>
+    </types>
+    <types>
         <members>*</members>
         <name>Role</name>
     </types>
