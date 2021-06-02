@@ -73,6 +73,7 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+      <members>User</members>
       <members>Product2</members>
       <members>PriceBook2</members>
       <members>PriceBookEntry</members>
