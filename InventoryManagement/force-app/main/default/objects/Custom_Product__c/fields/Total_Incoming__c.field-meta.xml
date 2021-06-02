@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Incoming__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Incoming</label>
+    <summarizedField>Custom_Order__c.Quantity__c</summarizedField>
+    <summaryFilterItems>
+        <field>Custom_Order__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Inbound Order</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Custom_Order__c.Product__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

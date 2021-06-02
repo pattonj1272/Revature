@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ensure_dates_correct_on_create</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNEW() &amp;&amp;  (Estimated_Recieve_Date_End__c  &lt; now()||  Estimated_Recieve_Date_Start__c  &lt; now())</errorConditionFormula>
+    <errorMessage>Ensure Estimated Receive Dates are both in the future</errorMessage>
+</ValidationRule>
