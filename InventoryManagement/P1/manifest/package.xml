@@ -43,6 +43,12 @@
       <members>*</members>
       <name>CustomObject</name>
    </types>
+   <types>
+      <members>Custom Order</members>
+      <members>Custom Inventories</members>
+      <members>Custom_Order__c</members> 
+      <name>CustomTab</name>
+   </types>
    
     <version>51.0</version>
 </Package>
