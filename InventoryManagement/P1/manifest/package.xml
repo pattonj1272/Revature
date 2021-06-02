@@ -37,6 +37,10 @@
         <name>Flow</name>
     </types>
     <types>
+       <members>*</members>
+       <name>ApprovalProcess</name>
+    </types>
+    <types>
       <members>Product2</members>
       <members>PriceBook2</members>
       <members>PriceBookEntry</members>
