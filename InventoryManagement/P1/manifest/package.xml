@@ -37,21 +37,9 @@
         <name>Flow</name>
     </types>
     <types>
-       <members>*</members>
-       <name>customObjects</name>
-    </types>
-    <types>
-       <members>Product</members>
-       <name>StandardObject</name>
-    </types>
-    <types>
-       <members>PriceBook</members>
-       <name>StandardObject</name>
-    </types>
-    <types>
-       <members>PriceEntry</members>
-       <name>StandardObject</name>
-    </types>
-    
+      <members>*</members>
+      <name>CustomObject</name>
+   </types>
+   
     <version>51.0</version>
 </Package>
