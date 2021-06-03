@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Order_Status__c</fullName>
+    <fullName>Product__c</fullName>
     <externalId>false</externalId>
-    <label>Order Status</label>
+    <label>Product</label>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -11,44 +12,49 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>pending</fullName>
+                <fullName>GC1040</fullName>
                 <default>false</default>
-                <label>pending</label>
+                <label>GC1040</label>
             </value>
             <value>
-                <fullName>picked</fullName>
+                <fullName>GC1060</fullName>
                 <default>false</default>
-                <label>picked</label>
+                <label>GC1060</label>
             </value>
             <value>
-                <fullName>sent for delivery</fullName>
+                <fullName>GC3020</fullName>
                 <default>false</default>
-                <label>sent for delivery</label>
+                <label>GC3020</label>
             </value>
             <value>
-                <fullName>delivered</fullName>
+                <fullName>GC3040</fullName>
                 <default>false</default>
-                <label>delivered</label>
+                <label>GC3040</label>
             </value>
             <value>
-                <fullName>returned</fullName>
+                <fullName>GC3060</fullName>
                 <default>false</default>
-                <label>returned</label>
+                <label>GC3060</label>
             </value>
             <value>
-                <fullName>canceled</fullName>
+                <fullName>GC5020</fullName>
                 <default>false</default>
-                <label>canceled</label>
+                <label>GC5020</label>
             </value>
             <value>
-                <fullName>Rejected</fullName>
+                <fullName>GC5040</fullName>
                 <default>false</default>
-                <label>Rejected</label>
+                <label>GC5040</label>
             </value>
             <value>
-                <fullName>Returned to manufacture</fullName>
+                <fullName>GC5060</fullName>
                 <default>false</default>
-                <label>Returned to manufacture</label>
+                <label>GC5060</label>
+            </value>
+            <value>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+                <label>GC1020</label>
             </value>
         </valueSetDefinition>
     </valueSet>
