@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Orders</value>
+    </caseValues>
+    <layouts>
+        <layout>Inbound Order Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Outbound Order Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Picker</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Canceled</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Inbound_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Outbound_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Picking</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Ensure_dates_correct_on_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Ensure_start_is_less_then_end</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Quantity_Greater_then_zero</name>
+    </validationRules>
+    <workflowTasks>
+        <description></description>
+        <name>Approve_Order_if_can_order_enough_to_cover</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Order_ready</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Past_due</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Past_due_shipment</name>
+        <subject></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description></description>
+        <name>Super_Expensive_order</name>
+        <subject></subject>
+    </workflowTasks>
+</CustomObjectTranslation>
