@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ordered_More</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns/>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <targetObject>Custom_Order__c</targetObject>
+    <targetParentField>Product__c</targetParentField>
+    <targetRecordType>Custom_Order__c.Inbound_Order</targetRecordType>
+    <type>Create</type>
+</QuickAction>
