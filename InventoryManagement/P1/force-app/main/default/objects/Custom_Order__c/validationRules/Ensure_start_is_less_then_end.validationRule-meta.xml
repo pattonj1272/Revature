@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Ensure_start_is_less_then_end</fullName>
-    <active>true</active>
-    <errorConditionFormula>Estimated_Recieve_Date_Start__c  &gt; Estimated_Recieve_Date_End__c</errorConditionFormula>
-    <errorMessage>Ensure Estimated Receive Start is before Estimated Receive Date.</errorMessage>
-</ValidationRule>
