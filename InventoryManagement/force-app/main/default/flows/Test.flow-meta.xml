@@ -230,25 +230,25 @@
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>([Custom_Order__c].Product__r.Total_Incoming__c + [Custom_Order__c].Product__r.Total_In_Stock__c  - ([Custom_Order__c].Product__r.Total_Outstanding__c + [Custom_Order__c].Quantity__c  )) &lt; 0</stringValue>
+                <stringValue>([Custom_Order__c].Product2__r.Total_Incoming__c + [Custom_Order__c].Product2__r.Total_In_Stock__c  - ([Custom_Order__c].Product2__r.Total_Outstanding__c + [Custom_Order__c].Quantity__c  )) &lt; 0</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_3</name>
         <dataType>Boolean</dataType>
-        <expression>({!myVariable_current.Product__r.Total_Incoming__c} + {!myVariable_current.Product__r.Total_In_Stock__c}  - ({!myVariable_current.Product__r.Total_Outstanding__c} + {!myVariable_current.Quantity__c}  )) &lt; 0</expression>
+        <expression>({!myVariable_current.Product2__r.Total_Incoming__c} + {!myVariable_current.Product2__r.Total_In_Stock__c}  - ({!myVariable_current.Product2__r.Total_Outstanding__c} + {!myVariable_current.Quantity__c}  )) &lt; 0</expression>
     </formulas>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>([Custom_Order__c].Product__r.Total_Incoming__c + [Custom_Order__c].Product__r.Total_In_Stock__c  - ([Custom_Order__c].Product__r.Total_Outstanding__c + [Custom_Order__c].Quantity__c  )) &lt; 0</stringValue>
+                <stringValue>([Custom_Order__c].Product2__r.Total_Incoming__c + [Custom_Order__c].Product2__r.Total_In_Stock__c  - ([Custom_Order__c].Product2__r.Total_Outstanding__c + [Custom_Order__c].Quantity__c  )) &lt; 0</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_3_pmetrule</name>
         <dataType>Boolean</dataType>
-        <expression>({!myVariable_old.Product__r.Total_Incoming__c} + {!myVariable_old.Product__r.Total_In_Stock__c}  - ({!myVariable_old.Product__r.Total_Outstanding__c} + {!myVariable_old.Quantity__c}  )) &lt; 0</expression>
+        <expression>({!myVariable_old.Product2__r.Total_Incoming__c} + {!myVariable_old.Product2__r.Total_In_Stock__c}  - ({!myVariable_old.Product2__r.Total_Outstanding__c} + {!myVariable_old.Quantity__c}  )) &lt; 0</expression>
     </formulas>
-    <interviewLabel>Test-15_InterviewLabel</interviewLabel>
+    <interviewLabel>Test-17_InterviewLabel</interviewLabel>
     <label>Order</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -346,7 +346,7 @@
             </processMetadataValues>
             <field>OwnerId</field>
             <value>
-                <elementReference>myVariable_current.Product__r.OwnerId</elementReference>
+                <elementReference>myVariable_current.Product2__r.CreatedBy.ProfileId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -442,7 +442,7 @@
             </processMetadataValues>
             <field>WhatId</field>
             <value>
-                <elementReference>myVariable_current.Product__r.Id</elementReference>
+                <elementReference>myVariable_current.Product2__r.Id</elementReference>
             </value>
         </inputAssignments>
         <object>Task</object>

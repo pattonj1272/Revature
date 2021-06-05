@@ -23,7 +23,7 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Custom_Product__c.Total_to_sell__c</field>
+            <field>Custom_Inventory__c.Quantity__c</field>
             <operation>lessOrEqual</operation>
             <value>10</value>
         </criteriaItems>

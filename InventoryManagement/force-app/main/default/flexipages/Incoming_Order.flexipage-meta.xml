@@ -41,11 +41,7 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Product__c</fieldItem>
+                <fieldItem>Record.Product2__c</fieldItem>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

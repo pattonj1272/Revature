@@ -32,38 +32,6 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Acquisition Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Acquisition Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Manager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
         <content>Canceled</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Custom_Order__c</pageOrSobjectType>
@@ -262,38 +230,6 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>CEO</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>CEO</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Custom_product_page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
         <content>Incoming_Order</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Custom_Order__c</pageOrSobjectType>
@@ -345,22 +281,6 @@
         <recordType>Custom_Order__c.Inbound_Order</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Products_Picker</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Picker</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Products_Picker</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Custom_Product__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Picker</profile>
     </profileActionOverrides>
     <tabs>standard-Dashboard</tabs>
     <tabs>Custom_Inventory__c</tabs>

@@ -82,21 +82,6 @@
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Custom_Order__c.Product__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Custom_Inventory__c.Product__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>PRODUCT.NAME</fields>
-        <fields>PRODUCT.CUSTOMER_PRODUCT_ID</fields>
-        <fields>PRODUCT.DEFAULT_PRICE</fields>
-        <fields>PRODUCT.ACTIVE</fields>
-        <relatedList>PricebookEntry.Custom_Product__c</relatedList>
-    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
