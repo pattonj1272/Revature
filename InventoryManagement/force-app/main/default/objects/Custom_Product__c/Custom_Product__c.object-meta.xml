@@ -164,16 +164,11 @@
         <fields>NAME</fields>
         <fields>Product_Name_Long__c</fields>
         <fields>price__c</fields>
-        <fields>Total_Incoming__c</fields>
-        <fields>Total_In_Stock__c</fields>
-        <fields>Total_Outstanding__c</fields>
-        <fields>Total_to_sell__c</fields>
         <profileName>Acquisition Manager</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>NAME</fields>
         <fields>Product_Name_Long__c</fields>
-        <fields>Total_In_Stock__c</fields>
         <fields>Description__c</fields>
         <profileName>Picker</profileName>
     </profileSearchLayouts>
@@ -181,20 +176,12 @@
         <fields>NAME</fields>
         <fields>Product_Name_Long__c</fields>
         <fields>price__c</fields>
-        <fields>Total_Incoming__c</fields>
-        <fields>Total_In_Stock__c</fields>
-        <fields>Total_Outstanding__c</fields>
-        <fields>Total_to_sell__c</fields>
         <profileName>System Administrator</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>NAME</fields>
         <fields>Product_Name_Long__c</fields>
         <fields>price__c</fields>
-        <fields>Total_Incoming__c</fields>
-        <fields>Total_In_Stock__c</fields>
-        <fields>Total_Outstanding__c</fields>
-        <fields>Total_to_sell__c</fields>
         <profileName>Manager</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>

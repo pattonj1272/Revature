@@ -4,6 +4,5 @@
     <fields>Name</fields>
     <fields>Product_Name_Long__c</fields>
     <fields>price__c</fields>
-    <fields>Total_In_Stock__c</fields>
     <label>Product Picker</label>
 </CompactLayout>

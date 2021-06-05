@@ -8,10 +8,6 @@
         <plural>true</plural>
         <value>Custom Products</value>
     </caseValues>
-    <quickActions>
-        <label></label>
-        <name>Ordered_More</name>
-    </quickActions>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage></errorMessage>
