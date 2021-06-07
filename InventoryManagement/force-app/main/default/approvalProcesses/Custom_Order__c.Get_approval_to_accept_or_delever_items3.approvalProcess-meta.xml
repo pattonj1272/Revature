@@ -16,7 +16,6 @@
     <approvalPageFields>
         <field>Name</field>
         <field>Order_Status__c</field>
-        <field>00N5e00000CPiWe</field>
         <field>Quantity__c</field>
         <field>RecordType</field>
         <field>Tracking_Reference__c</field>
