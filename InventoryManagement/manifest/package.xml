@@ -37,19 +37,23 @@
         <name>Flow</name>
     </types>
     <types>
-       <members>*</members>
+       <members>Get_approval_to_accept_or_delever_items3</members>
        <name>ApprovalProcess</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Acquisition Manager</members>
+        <members>CEO</members>
+        <members>Manager</members>
+        <members>Picker</members>
         <name>Profile</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Send_Orders</members>
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Custom Inventory</members>
+        <members>Custom Order</members>
         <name>SharingRules</name>
     </types>
     <types>
@@ -64,14 +68,14 @@
         <members>*</members>
         <name>GlobalPicklist</name>
     </types>
-    <types>
+    <!--<types>
         <members>*</members>
         <name>EscalationRules</name>
     </types>
     <types>
         <members>*</members>
         <name>AssignmentRules</name>
-    </types>
+    </types>-->
     <types>
       <!--<members>User</members>-->
       <members>Product2</members>

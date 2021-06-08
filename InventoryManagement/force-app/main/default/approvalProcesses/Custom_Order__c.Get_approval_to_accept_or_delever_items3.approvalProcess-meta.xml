@@ -34,10 +34,8 @@
         </approvalActions>
         <assignedApprover>
             <approver>
-                <name>pattonj1272@gmail.com</name>
-                <type>user</type>
+                <type>userHierarchyField</type>
             </approver>
-            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
         <entryCriteria>
             <formula>Product2__r.Price__c *  Quantity__c &gt; 100000</formula>
@@ -56,14 +54,8 @@
         </approvalActions>
         <assignedApprover>
             <approver>
-                <name>bberry23423423@not.email</name>
-                <type>user</type>
+                <type>userHierarchyField</type>
             </approver>
-            <approver>
-                <name>pattonj1272@gmail.com</name>
-                <type>user</type>
-            </approver>
-            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
         </assignedApprover>
         <entryCriteria>
             <formula>Product2__r.Price__c *  Quantity__c  &gt; 1000000</formula>
@@ -79,10 +71,8 @@
         <allowDelegate>false</allowDelegate>
         <assignedApprover>
             <approver>
-                <name>bberry23423423@not.email</name>
-                <type>user</type>
+                <type>userHierarchyField</type>
             </approver>
-            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
         <entryCriteria>
             <formula>( Product2__r.Total_Incoming__c  +  Product2__r.Total_In_Stock__c   - ( Product2__r.Total_Outstanding__c  +  Quantity__c  )) &lt; 0</formula>
