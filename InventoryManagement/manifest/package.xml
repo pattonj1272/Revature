@@ -41,10 +41,15 @@
        <name>ApprovalProcess</name>
     </types>
     <types>
+       <members>*</members>
+       <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Acquisition Manager</members>
         <members>CEO</members>
         <members>Manager</members>
         <members>Picker</members>
+        <members>System Administrator</members>
         <name>Profile</name>
     </types>
     <types>
@@ -110,10 +115,7 @@
         <name>Document</name>
     </types>
 
-    <types>
-       <members>*</members>
-       <name>CustomApplication</name>
-    </types>
+    
    
     <version>51.0</version>
 </Package>
