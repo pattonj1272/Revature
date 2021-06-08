@@ -407,6 +407,10 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>Custom_Inventory__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Custom_Order__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
