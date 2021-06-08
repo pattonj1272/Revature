@@ -2,7 +2,7 @@ public class InventoryClass {
 	public static List<Custom_Inventory__c> addToInventoryList(id product_id, Decimal quantity, List<Custom_Inventory__c> myInventory){
         Boolean found = false;
             for (Custom_Inventory__c inventory : myInventory) {
-               if (inventory.product__c == product_id) {
+               if (inventory.product2__c == product_id) {
                   inventory.quantity__c +=  quantity;
                   found = true;
                   break;  // ensure that inventory is not added to multiple
@@ -10,7 +10,7 @@ public class InventoryClass {
             }
             if (found == false) {             
                 
-                Custom_Inventory__c tmp = new Custom_Inventory__c(Product__c=product_id, quantity__c=quantity);
+                Custom_Inventory__c tmp = new Custom_Inventory__c(Product2__c=product_id, quantity__c=quantity);
                 myInventory.add(tmp); 
                  
             }
@@ -20,7 +20,7 @@ public class InventoryClass {
 	public static List<Custom_Inventory__c> removeFromInventoryList(id product_id, Decimal quantity, List<Custom_Inventory__c> myInventory){
         Boolean found = false;
         for (Custom_Inventory__c inventory : myInventory) {
-            if (inventory.product__c == product_id) {
+            if (inventory.product2__c == product_id) {
                 inventory.quantity__c -=  quantity;
                 found = true;
                 break;  // ensure that inventory is not added to multiple

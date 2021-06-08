@@ -2,7 +2,6 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Incoming</fullName>
     <columns>NAME</columns>
-    <columns>Product__c</columns>
     <columns>Quantity__c</columns>
     <columns>Estimated_Recieve_Date_End__c</columns>
     <columns>Estimated_Recieve_Date_Start__c</columns>
