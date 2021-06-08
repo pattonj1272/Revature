@@ -109,6 +109,11 @@
         <members>*</members>
         <name>Document</name>
     </types>
+
+    <types>
+       <members>*</members>
+       <name>CustomApplication</name>
+    </types>
    
     <version>51.0</version>
 </Package>
