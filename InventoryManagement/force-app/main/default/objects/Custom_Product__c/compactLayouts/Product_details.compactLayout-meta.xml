@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Product_details</fullName>
-    <fields>Name</fields>
-    <fields>Product_Name_Long__c</fields>
-    <fields>price__c</fields>
-    <label>Product_details</label>
-</CompactLayout>
