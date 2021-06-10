@@ -503,7 +503,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Custom_Order__c.Outbound_Order</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
