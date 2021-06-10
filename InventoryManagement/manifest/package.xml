@@ -118,7 +118,15 @@
         <name>Document</name>
     </types>
 
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
     
+    <types>
+       <members>*</members>
+       <name>ListView</name>
+    </types>
    
     <version>51.0</version>
 </Package>
