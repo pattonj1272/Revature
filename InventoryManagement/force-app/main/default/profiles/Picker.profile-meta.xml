@@ -508,7 +508,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Custom_Order__c.Picking</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
