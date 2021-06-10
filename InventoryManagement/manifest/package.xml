@@ -41,7 +41,7 @@
        <name>ApprovalProcess</name>
     </types>
     <types>
-       <members>*</members>
+       <members>Inventory_Management</members>
        <name>CustomApplication</name>
     </types>
     <types>
