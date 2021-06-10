@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>kissclipartwarehouseiconclipartware</masterLabel>
+    <relationships>
+        <organization>
+            <access>VIEWER</access>
+        </organization>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>kissclipart-warehouse-icon-clipart-warehouse-computer-icons-bu-2d85a9f44f0b1197.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

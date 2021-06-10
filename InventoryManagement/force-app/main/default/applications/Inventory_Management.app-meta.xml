@@ -286,5 +286,4 @@
     <tabs>Custom_Inventory__c</tabs>
     <tabs>Custom_Order__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Inventory_Management_UtilityBar</utilityBar>
 </CustomApplication>
