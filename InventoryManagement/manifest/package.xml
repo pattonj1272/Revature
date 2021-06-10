@@ -49,18 +49,18 @@
         <members>CEO</members>
         <members>Manager</members>
         <members>Picker</members>
-        <members>System Administrator</members>
+        <members>Admin</members>
         <name>Profile</name>
     </types>
     <types>
         <members>Send_Orders</members>
         <name>PermissionSet</name>
     </types>
-    <types>
+    <!--<types>
         <members>Custom Inventory</members>
         <members>Custom Order</members>
         <name>SharingRules</name>
-    </types>
+    </types>-->
     <types>
         <members>UserManagement</members>
         <name>Settings</name>
@@ -71,7 +71,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>GlobalPicklist</name>
+        <name>GlobalValueSet</name>
     </types>
     <!--<types>
         <members>*</members>
