@@ -40,7 +40,7 @@
         <dataType>Boolean</dataType>
         <expression>isNew() == False</expression>
     </formulas>
-    <interviewLabel>Product2-1_InterviewLabel</interviewLabel>
+    <interviewLabel>Product2-2_InterviewLabel</interviewLabel>
     <label>Product2</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -99,7 +99,7 @@
             </processMetadataValues>
             <field>OwnerId</field>
             <value>
-                <elementReference>myVariable_current.CreatedBy.Profile.Id</elementReference>
+                <elementReference>myVariable_current.CreatedById</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>

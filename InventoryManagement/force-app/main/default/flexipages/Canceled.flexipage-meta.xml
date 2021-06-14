@@ -82,6 +82,11 @@
     <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
+                <fieldItem>Record.RecordTypeId</fieldItem>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
                     <value>none</value>
@@ -113,7 +118,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Estimated_Recieve_Date_End__c</fieldItem>
+                <fieldItem>Record.Estimated_Recieve_Date_Start__c</fieldItem>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -122,7 +127,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Estimated_Recieve_Date_Start__c</fieldItem>
+                <fieldItem>Record.Estimated_Recieve_Date_End__c</fieldItem>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
