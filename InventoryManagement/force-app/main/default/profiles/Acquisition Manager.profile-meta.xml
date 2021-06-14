@@ -99,7 +99,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ProductExtension</apexClass>
-        <apexClass>ProductClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>

@@ -99,8 +99,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ProductExtension</apexClass>
-        <apexClass>ProductClass</apexClass>
         <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ProductClass</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteLoginController</apexClass>
