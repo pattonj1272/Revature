@@ -9,7 +9,6 @@
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
-    
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>

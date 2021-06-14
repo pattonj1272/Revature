@@ -1,0 +1,42 @@
+<apex:page standardController="Product2" recordSetVar="prod" extensions="ProductExtension" >
+	<apex:form >
+    <apex:pageBlock >
+      
+     
+        <apex:pageBlockSection >
+    	<apex:pageBlockTable value="{!prod}" var="p">
+            <apex:column value="{!p.Name}"/>
+            <apex:column value="{!p.Productcode}"/>
+            <apex:column value="{!p.Price__c}"/>
+            
+            
+            
+            <apex:column headerValue="Total In Stock">
+        		<apex:outputField value="{!p.Total_In_Stock__c}">
+                <apex:inlineEditSupport showOnEdit="updateRecords"/>
+                </apex:outputField>
+        	</apex:column>
+            
+            <apex:column headerValue="Total Incoming">
+        		<apex:outputField value="{!p.Total_Incoming__c}">
+                <apex:inlineEditSupport showOnEdit="updateRecords"/>
+                </apex:outputField>
+        	</apex:column>
+        	
+            <apex:column headerValue="Total Outstanding">
+        		<apex:outputField value="{!p.Total_Outstanding__c}">
+                <apex:inlineEditSupport showOnEdit="updateRecords"/>
+                </apex:outputField>
+        	</apex:column>
+           
+            <apex:column value="{!p.Total_to_sell__c}"/>
+    	</apex:pageBlockTable>
+        </apex:pageBlockSection>     
+    <apex:pageBlockButtons >
+            	<apex:commandButton value="Update Records" action="{!save}" style="display:none" id="updateRecords"/> 
+    </apex:pageBlockButtons>
+      
+    <apex:commandButton action="{!sortingHat}" value="Go to Order Page"/>     
+    </apex:pageBlock>
+    </apex:form>  
+</apex:page>
