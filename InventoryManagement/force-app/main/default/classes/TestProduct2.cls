@@ -20,7 +20,7 @@ public class TestProduct2 {
      
         List<Product2> newProductsTest = [SELECT id, Name, Description from Product2];
         
-        System.assertEquals(2, newProductsTest.size());
+        System.assertEquals(6, newProductsTest.size());
         
     }
 }
