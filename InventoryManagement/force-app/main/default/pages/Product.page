@@ -8,27 +8,11 @@
             <apex:column value="{!p.Name}"/>
             <apex:column value="{!p.Productcode}"/>
             <apex:column value="{!p.Price__c}"/>
-            
-            
-            
-            <apex:column headerValue="Total In Stock">
-        		<apex:outputField value="{!p.Total_In_Stock__c}">
+            <apex:column headerValue="Description">
+        		<apex:outputField value="{!p.Description}">
                 <apex:inlineEditSupport showOnEdit="updateRecords"/>
                 </apex:outputField>
         	</apex:column>
-            
-            <apex:column headerValue="Total Incoming">
-        		<apex:outputField value="{!p.Total_Incoming__c}">
-                <apex:inlineEditSupport showOnEdit="updateRecords"/>
-                </apex:outputField>
-        	</apex:column>
-        	
-            <apex:column headerValue="Total Outstanding">
-        		<apex:outputField value="{!p.Total_Outstanding__c}">
-                <apex:inlineEditSupport showOnEdit="updateRecords"/>
-                </apex:outputField>
-        	</apex:column>
-           
             <apex:column value="{!p.Total_to_sell__c}"/>
     	</apex:pageBlockTable>
         </apex:pageBlockSection>     
