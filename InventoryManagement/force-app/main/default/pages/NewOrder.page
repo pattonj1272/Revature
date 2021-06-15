@@ -1,0 +1,19 @@
+<apex:page controller="NewOrderController" docType="html-5.0">
+    <apex:pageBlock >
+        <apex:form >
+            <apex:outputLabel value="{!successStatement}"/>
+            <apex:pageBlockSection >
+                <apex:selectList size="1" value="{!selectedProduct}" label="Product">
+                    <apex:selectOptions value="{!productpicklist}"></apex:selectOptions>
+                </apex:selectList>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >
+                <apex:input type="number" value="{!quantity}" label="Quantity"/><br/>
+                <apex:input type="date" value="{!selectDate}" label="Order Date"/>
+            </apex:pageBlockSection>
+            <div style="margin-left: 20%">
+                <apex:commandButton action="{!saveOrder}" value="Submit"/>
+            </div>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>
