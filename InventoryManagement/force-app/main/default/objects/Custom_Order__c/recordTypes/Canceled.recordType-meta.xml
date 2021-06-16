@@ -16,7 +16,7 @@
         </values>
         <values>
             <fullName>canceled</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
         <values>
             <fullName>returned</fullName>

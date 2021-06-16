@@ -248,7 +248,7 @@
         <dataType>Boolean</dataType>
         <expression>({!myVariable_old.Product2__r.Total_Incoming__c} + {!myVariable_old.Product2__r.Total_In_Stock__c}  - ({!myVariable_old.Product2__r.Total_Outstanding__c} + {!myVariable_old.Quantity__c}  )) &lt; 0</expression>
     </formulas>
-    <interviewLabel>Test-17_InterviewLabel</interviewLabel>
+    <interviewLabel>Test-18_InterviewLabel</interviewLabel>
     <label>Order</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -448,7 +448,7 @@
         <object>Task</object>
     </recordCreates>
     <startElementReference>myPreWaitDecision_myWait_myRule_3</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>cancelWaits</name>
         <dataType>String</dataType>

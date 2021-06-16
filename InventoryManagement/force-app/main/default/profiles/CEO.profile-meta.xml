@@ -90,6 +90,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>NewOrderController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OrderClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -104,6 +108,11 @@
     <classAccesses>
         <apexClass>ProductTest</apexClass>
         <enabled>false</enabled>
+<enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+      <apexClass>ProductClass</apexClass>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteLoginController</apexClass>
@@ -374,6 +383,10 @@
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
         <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>NewOrder</apexPage>
+    <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Product</apexPage>
