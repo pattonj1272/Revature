@@ -98,16 +98,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ProductController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ProductExtension</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ProductTest</apexClass>
-        <enabled>false</enabled>
 <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

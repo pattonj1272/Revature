@@ -107,7 +107,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ProductTest</apexClass>
-        <enabled>false</enabled>
 <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
