@@ -47,9 +47,11 @@ public class InventoryClass {
         if (invintories == null){
             return null;
         }
+        System.debug('In get products ids from invy' + invintories);
         List<Custom_Inventory__c> updated_invintories_full_infomation = [SELECT Id, Product2__R.id FROM Custom_Inventory__c WHERE id in :getIdsFromInventories(invintories)];
+        System.debug('In get products ids from invy' + updated_invintories_full_infomation);
         List<id> product_ids = new List<Id>();
-        for (Custom_Inventory__c inventory : invintories){
+        for (Custom_Inventory__c inventory : updated_invintories_full_infomation){
             product_ids.add(inventory.Product2__R.Id);
         }
         return product_ids;

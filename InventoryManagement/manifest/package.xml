@@ -9,6 +9,10 @@
         <name>ApexComponent</name>
     </types>
     <types>
+        <members>Inventory_Management</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>*</members>
         <name>ApexPage</name>
     </types>
@@ -93,7 +97,7 @@
         <members>*</members>
         <name>FlexiPage</name>
     </types>
-   <types>
+   <!--<types>
         <members>*</members>
         <name>Network</name>
     </types>
@@ -104,7 +108,7 @@
     <types>
         <members>*</members>
         <name>ExperienceBundle</name>
-    </types>
+    </types>-->
     <types>
         <members>*</members>
         <name>CustomTab</name>

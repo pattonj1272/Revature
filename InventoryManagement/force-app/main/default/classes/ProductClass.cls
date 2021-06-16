@@ -37,20 +37,25 @@ public class ProductClass {
     
     
     public static void adjustProductSummariesBasedOnInventoryChange(List<Custom_Inventory__c> newInventories, Boolean add) {
-        List<Id> newInvintoryIds = InventoryClass.getProductIdsFromInventories(newInventories);
-
+        System.debug('Changing invy');
+        List<Id> newInvintoryIds = InventoryClass.getIdsFromInventories(newInventories);
+        List<Id> newProductInvintoryIds = InventoryClass.getProductIdsFromInventories(newInventories);
+		
+        System.debug('Changing invy2' + newInvintoryIds + newProductInvintoryIds);
         List<Custom_Inventory__c> NewInvintoriesFullInfomation = [SELECT Id, Product2__R.Id, Quantity__c FROM Custom_Inventory__c WHERE id in :newInvintoryIds];
-        List<Product2> products = [SELECT Id, Total_In_Stock__c, Total_Incoming__c, Total_Outstanding__c FROM Product2 WHERE Id in :newInvintoryIds];
+        List<Product2> products = [SELECT Id, Total_In_Stock__c, Total_Incoming__c, Total_Outstanding__c FROM Product2 WHERE Id in :newProductInvintoryIds];
         for (Product2 product : products){
             if (newInventories != null){
-                for (Custom_Inventory__c newInventory : newInventories) {
+                for (Custom_Inventory__c newInventory : NewInvintoriesFullInfomation) {
+                    System.debug('Changing invy3' + product  + newInventory);
                     if (product.Id == newInventory.Product2__R.Id) {
+                        System.debug('Changing invy3.5' + product.Id + newInventory.Product2__R.Id + product  + newInventory);
                         product.Total_In_Stock__c = adjustValue(product.Total_In_Stock__c, newInventory.quantity__c, add);
                     }
                 }
             }
         }
-        
+        System.debug('Updating invy4');
         update products;
     }
         
@@ -82,10 +87,8 @@ public class ProductClass {
     public static Decimal adjustValue(Decimal value, Decimal quantity, Boolean add){
         if (add){
             if (value == null){
-                system.debug('Here I am');
                 value = quantity;
             }else {
-                system.debug('JK Here I am');
                 value += quantity;
             }
         } else {  // subtract
