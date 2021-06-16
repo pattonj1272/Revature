@@ -90,6 +90,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>NewOrderController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OrderClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -372,6 +376,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>NewOrder</apexPage>
+ <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>Product</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -468,7 +476,6 @@
         <enabled>true</enabled>
         <name>AssignTopics</name>
     </userPermissions>
-
     <userPermissions>
         <enabled>true</enabled>
         <name>ChatterEditOwnPost</name>
