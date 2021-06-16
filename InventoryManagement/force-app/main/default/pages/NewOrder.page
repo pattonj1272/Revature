@@ -1,0 +1,22 @@
+<apex:page controller="NewOrderController" docType="html-5.0">
+    <apex:pageBlock >
+        <apex:form style="width:70%;margin:5em auto;">
+            <div style="text-align:center;font-size:1.2em;margin-top:2em;">
+            <apex:outputLabel value="{!successStatement}"/>
+            </div>
+            <apex:pageBlock >
+            <apex:pageBlockSection title="Create Order" columns="1">
+                <apex:selectList size="1" value="{!selectedProduct}" label="Product">
+                    <apex:selectOptions value="{!productpicklist}"></apex:selectOptions>
+                </apex:selectList>
+            
+                <apex:input type="number" value="{!quantity}" label="Quantity"/><br/>
+                <apex:input type="date" value="{!selectDate}" label="Order Date"/>
+            </apex:pageBlockSection>
+                <apex:pageBlockButtons location="bottom">
+                <apex:commandButton style="float:right;" action="{!saveOrder}" value="Submit"/>
+                </apex:pageBlockButtons>
+            </apex:pageBlock>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

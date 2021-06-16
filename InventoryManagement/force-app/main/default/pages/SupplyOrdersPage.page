@@ -1,0 +1,39 @@
+<apex:page controller="SupplyOrders">
+   <apex:pageBlock >
+    <apex:form style="width:70%;margin:5em auto;">
+        <div style="text-align:center;font-size:1.2em;margin-top:2em;">
+            <apex:outputLabel value="{!successOrError}"/>
+         </div>
+         <apex:pageBlock >
+
+                <apex:pageBlockSection title="Create supply" columns="1">
+
+                    <apex:inputField value="{!order.Quantity__c   }"/>
+
+                    <apex:selectList label="Order Status:" value="{!orderStatus}" multiselect="false" size="1">
+                                <apex:selectOptions value="{!OrderStatusOptions}"/>
+                    </apex:selectList>
+
+                     <apex:selectList label="Products:" value="{!selectedProduct}" multiselect="false" size="1">
+                                <apex:selectOptions value="{!ProductsOptions}"/>
+                          <apex:actionSupport event="onchange" action="{!change}"/>
+                    </apex:selectList>
+                  <apex:outputText label="Price for this item" style="font-style:italic" value="{0}">
+                        <apex:param value="{!unitPrice}"/>
+                    </apex:outputText>
+
+                    <apex:selectList label="Contacts:" value="{!selectedContact}" multiselect="false" size="1">
+                                <apex:selectOptions value="{!ContactsOptions}"/>
+                    </apex:selectList>
+
+                     <apex:inputField value="{!order.Order_Date__c   }"/>
+
+                </apex:pageBlockSection>    
+
+                    <apex:pageBlockButtons location="bottom">
+                        <apex:commandButton style="float:right;" value="Save" action="{!save}"  styleClass="slds-button slds-button_brand"/>
+                    </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    </apex:pageBlock>
+</apex:page>

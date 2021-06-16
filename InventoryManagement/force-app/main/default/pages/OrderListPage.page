@@ -1,0 +1,21 @@
+<apex:page standardController="Custom_Order__c" recordSetVar="order">
+    <apex:form style="width:70%;margin:5em auto;">
+    <apex:pageBlock >
+        
+     
+        <apex:pageBlockSection title="Orders List"  columns="1">
+            
+        <apex:pageBlockTable value="{!order}" var="o">
+            <apex:column value="{!o.Name}"/>
+            <apex:column value="{!o.Approved__c}"/>
+            <apex:column value="{!o.Order_Status__c}"/>
+            <apex:column value="{!o.Product2__c}"/>
+            <apex:column value="{!o.Quantity__c}"/>
+            <apex:column value="{!o.Estimated_Recieve_Date_Start__c}"/>
+            <apex:column value="{!o.Estimated_Recieve_Date_End__c}"/>
+        </apex:pageBlockTable>
+        </apex:pageBlockSection>     
+      
+    </apex:pageBlock>
+    </apex:form>  
+</apex:page>

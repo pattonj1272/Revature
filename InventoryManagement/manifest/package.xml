@@ -9,6 +9,10 @@
         <name>ApexComponent</name>
     </types>
     <types>
+        <members>Inventory_Management</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>*</members>
         <name>ApexPage</name>
     </types>
@@ -36,22 +40,31 @@
         <members>*</members>
         <name>Flow</name>
     </types>
-    <types>
-       <members>*</members>
+    <!--types>
+       <members>Get_approval_to_accept_or_delever_items3</members>
        <name>ApprovalProcess</name>
+    </types>-->
+    <types>
+       <members>Inventory_Management</members>
+       <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Acquisition Manager</members>
+        <members>CEO</members>
+        <members>Manager</members>
+        <members>Picker</members>
+        <members>Admin</members>
         <name>Profile</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Send_Orders</members>
         <name>PermissionSet</name>
     </types>
-    <types>
-        <members>*</members>
+    <!--<types>
+        <members>Custom Inventory</members>
+        <members>Custom Order</members>
         <name>SharingRules</name>
-    </types>
+    </types>-->
     <types>
         <members>UserManagement</members>
         <name>Settings</name>
@@ -62,16 +75,16 @@
     </types>
     <types>
         <members>*</members>
-        <name>GlobalPicklist</name>
+        <name>GlobalValueSet</name>
     </types>
-    <types>
+    <!--<types>
         <members>*</members>
         <name>EscalationRules</name>
     </types>
     <types>
         <members>*</members>
         <name>AssignmentRules</name>
-    </types>
+    </types>-->
     <types>
       <!--<members>User</members>-->
       <members>Product2</members>
@@ -81,12 +94,43 @@
       <name>CustomObject</name>
    </types>
    <types>
-      <members>Custom Order</members>
-      <members>Custom Inventories</members>
-      <members>Custom_Order__c</members> 
-      <name>CustomTab</name>
-   </types>
- 
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+   <!--<types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ExperienceBundle</name>
+    </types>-->
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Portal</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Document</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+    
+    <types>
+       <members>*</members>
+       <name>ListView</name>
+    </types>
    
     <version>51.0</version>
 </Package>
