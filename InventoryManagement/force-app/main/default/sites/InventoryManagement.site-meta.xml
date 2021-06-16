@@ -22,8 +22,8 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>jimmamorru@gmail.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>jimmamorru@gmail.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>nathanvtellez@wise-bear-v5scmx.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>nathanvtellez@wise-bear-v5scmx.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
-    <subdomain>inventorymanagement-developer-edition</subdomain>
+    <subdomain>projectinventorymanage-developer-edition</subdomain>
 </CustomSite>

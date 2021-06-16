@@ -448,7 +448,7 @@
         <object>Task</object>
     </recordCreates>
     <startElementReference>myPreWaitDecision_myWait_myRule_3</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>cancelWaits</name>
         <dataType>String</dataType>
