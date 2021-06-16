@@ -42,8 +42,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "",
-        "metaTags" : "",
         "title" : "Topic Catalog"
       },
       "componentName" : "forceCommunity:seoAssistant",

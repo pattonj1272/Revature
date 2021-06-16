@@ -1,0 +1,26 @@
+<apex:page standardController="Product2" recordSetVar="prod" extensions="ProductExtension" >
+	<apex:form >
+    <apex:pageBlock >
+      
+     
+        <apex:pageBlockSection >
+    	<apex:pageBlockTable value="{!prod}" var="p">
+            <apex:column value="{!p.Name}"/>
+            <apex:column value="{!p.Productcode}"/>
+            <apex:column value="{!p.Price__c}"/>
+            <apex:column headerValue="Description">
+        		<apex:outputField value="{!p.Description}">
+                <apex:inlineEditSupport showOnEdit="updateRecords"/>
+                </apex:outputField>
+        	</apex:column>
+            <apex:column value="{!p.Total_to_sell__c}"/>
+    	</apex:pageBlockTable>
+        </apex:pageBlockSection>     
+    <apex:pageBlockButtons >
+            	<apex:commandButton value="Update Records" action="{!save}" style="display:none" id="updateRecords"/> 
+    </apex:pageBlockButtons>
+      
+    <apex:commandButton action="{!sortingHat}" value="Go to Order Page"/>     
+    </apex:pageBlock>
+    </apex:form>  
+</apex:page>

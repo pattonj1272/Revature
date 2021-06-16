@@ -6,7 +6,8 @@
   "label" : "Customer Account Portal",
   "layouts" : {
     "Inner" : "5aa17c96-f8a1-42f8-b0a7-12a3069668fb",
-    "Login" : "569bbe16-e107-42f4-a976-5faab511365d"
+    "Login" : "569bbe16-e107-42f4-a976-5faab511365d",
+    "ServiceNotAvailable" : "363bb29a-349f-48a7-9e4e-2175b82e6549"
   },
   "type" : "theme",
   "views" : [ {
@@ -111,12 +112,63 @@
       "regionName" : "navBar",
       "type" : "region"
     }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "tabsetConfig" : {
+            "UUID" : "7f914008-e9d6-48f7-8838-20879e894047",
+            "activeTab" : "",
+            "tabs" : [ {
+              "UUID" : "ee3b7db4-71fb-4cf0-ba2e-5cac3e2e8062",
+              "allowGuestUser" : true,
+              "locked" : false,
+              "seedComponents" : [ ],
+              "tabKey" : "1",
+              "tabName" : "List of Products"
+            } ],
+            "useOverflowMenu" : false
+          }
+        },
+        "componentName" : "forceCommunity:tabset",
+        "id" : "7f914008-e9d6-48f7-8838-20879e894047",
+        "regions" : [ {
+          "id" : "ee3b7db4-71fb-4cf0-ba2e-5cac3e2e8062",
+          "regionLabel" : "List of Products",
+          "regionName" : "1",
+          "renditionMap" : { },
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
       "id" : "d7cf8a58-dd39-4555-a283-0be0d233c1a2",
       "regionName" : "customRegion",
       "type" : "region"
     }, {
       "id" : "4924fd91-ebe1-4ca7-a331-de28c9b4ca47",
       "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "363bb29a-349f-48a7-9e4e-2175b82e6549",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "9ceb17f8-23d4-401e-a939-89755303a062",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "f9b2ae39-f9bb-4871-ac12-637153c6f067",
+      "regionName" : "themeFooter",
       "type" : "region"
     } ],
     "type" : "view"

@@ -36,10 +36,10 @@
         <members>*</members>
         <name>Flow</name>
     </types>
-    <types>
+    <!--types>
        <members>Get_approval_to_accept_or_delever_items3</members>
        <name>ApprovalProcess</name>
-    </types>
+    </types>-->
     <types>
        <members>Inventory_Management</members>
        <name>CustomApplication</name>
@@ -104,7 +104,7 @@
     <types>
         <members>*</members>
         <name>ExperienceBundle</name>
-    </types>
+    </types>-
     <types>
         <members>*</members>
         <name>CustomTab</name>
