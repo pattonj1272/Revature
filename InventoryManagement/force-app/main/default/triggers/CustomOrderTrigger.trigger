@@ -4,16 +4,28 @@ trigger CustomOrderTrigger on Custom_Order__c (before insert, before update, Bef
             OrderClass.adjustInventoryBasedOnTrigger(Trigger.new);
         }
         
-    } else {
+    } else if (Trigger.isAfter == true) {
         //After save
         if(Trigger.isInsert) {
             OrderClass.createEventBaisedOnTrigger(Trigger.new);
-        }
-        if (Trigger.isUpdate) {
-            OrderClass.updateEventBaisedOnTrigger(Trigger.new);
+            ProductClass.adjustProductSummariesBasedOnOrder(Trigger.new, True);
         }
         else if (Trigger.isDelete) {
-            OrderClass.deleteEventBaisedOnTrigger(Trigger.new);
+            OrderClass.deleteEventBaisedOnTrigger(Trigger.old);
+            ProductClass.adjustProductSummariesBasedOnOrder(Trigger.old, False);
         }
+        else if (Trigger.isUpdate) {
+            OrderClass.updateEventBaisedOnTrigger(Trigger.new);
+            ProductClass.adjustProductSummariesBasedOnOrder(Trigger.new, True);
+            ProductClass.adjustProductSummariesBasedOnOrder(Trigger.old, False);
+        }
+        
+        else if (Trigger.isUndelete){
+            ProductClass.adjustProductSummariesBasedOnOrder(Trigger.new, True);
+        }
+        
+        
+        
+        
     }
 }

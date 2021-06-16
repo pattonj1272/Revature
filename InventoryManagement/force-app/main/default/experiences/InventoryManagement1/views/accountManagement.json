@@ -100,8 +100,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "",
-        "metaTags" : "",
         "title" : "Account Management"
       },
       "componentName" : "forceCommunity:seoAssistant",

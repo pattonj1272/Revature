@@ -1,0 +1,91 @@
+<apex:page controller="EventCalanderController" docType="html-5.0" >
+    <style>
+    .calanderItem {
+       border: solid black 1px;
+       padding: 2px;
+        display:block;
+    }
+    .verticalBar {
+        padding-left: 10px;
+        border-right: solid black 1px;
+    }
+    .item {
+        height: 120px;
+        display:block;
+    }
+        .tmp {
+            border-right: solid black 1px; padding-right: 2px;
+        }
+    </style>
+    <!--extensions="ProductExtension"-->
+    <apex:form >
+    <apex:pageBlock >
+        
+     
+        <apex:pageBlockSection title="Calander" columns="1">
+        <apex:pageBlockTable value="{!eventList}" var="ev">
+            <apex:column headerValue="Sunday" styleClass="tmp" style="border-right: solid black 1px; padding-right: 2px;">
+ 
+                <apex:outputText value="{!ev.Sunday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Sunday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Sunday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Sunday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Sunday[4]}" styleClass="item" /><hr />
+            </apex:column>
+            <apex:column headerValue="Monday" style="border-right: solid black 1px; padding-right: 2px;">
+                <apex:outputText value="{!ev.Monday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Monday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Monday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Monday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Monday[4]}" styleClass="item" /><hr />
+            </apex:column>
+            <apex:column headerValue="Tuesday" style="border-right: solid black 1px; padding-right: 2px;">
+                <apex:outputText value="{!ev.Tuesday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Tuesday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Tuesday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Tuesday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Tuesday[4]}" styleClass="item" /><hr />
+            </apex:column>
+            <apex:column headerValue="Wednesday" style="border-right: solid black 1px; padding-right: 2px;">
+                <apex:outputText value="{!ev.Wednesday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Wednesday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Wednesday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Wednesday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Wednesday[4]}" styleClass="item" /><hr />
+            </apex:column>
+            <apex:column headerValue="Thursday" style="border-right: solid black 1px; padding-right: 2px;">
+                <apex:outputText value="{!ev.Thursday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Thursday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Thursday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Thursday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Thursday[4]}" styleClass="item" /><hr />
+            </apex:column>
+            <apex:column headerValue="Friday" style="border-right: solid black 1px; padding-right: 2px;">
+                <apex:outputText value="{!ev.Friday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Friday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Friday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Friday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Friday[4]}" styleClass="item" /><hr />
+            </apex:column>
+            <apex:column headerValue="Saturday" style="border-right: solid black 1px; padding-right: 2px;">
+                <apex:outputText value="{!ev.Saturday[0]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Saturday[1]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Saturday[2]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Saturday[3]}" styleClass="item" /><hr />
+                <apex:outputText value="{!ev.Saturday[4]}" styleClass="item" /><hr />
+            </apex:column>
+
+            </apex:pageBlockTable>
+        </apex:pageBlockSection> 
+        <apex:pageBlockSection > 
+            <apex:outputLabel for="month" value="Month" />
+            <apex:input type="number" value="{!monthToView}" id="month"/>
+            <apex:outputLabel for="year" value="Year" />
+            <apex:input type="number" value="{!yearToView}"  id="year"/>
+       </apex:pageBlockSection> 
+      <apex:pageBlockButtons location="bottom">
+        <apex:commandButton style="float:right;" action="{!updateCalander}" value="Update Calander"/>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+    </apex:form>  
+</apex:page>

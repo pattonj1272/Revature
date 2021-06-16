@@ -62,6 +62,11 @@
                 <fieldItem>Record.Contact__c</fieldItem>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Tracking_Reference__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-d0cc0ba2-5f46-4ef4-8eb8-49802f5270bf</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -91,6 +96,16 @@
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Order_Status__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Estimated_Recieve_Date_Start__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Estimated_Recieve_Date_End__c</fieldItem>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
