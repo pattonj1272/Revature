@@ -285,6 +285,7 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>Custom_Inventory__c</tabs>
     <tabs>Custom_Order__c</tabs>
+    <tabs>ProductPage</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Inventory_Management_UtilityBar</utilityBar>
 </CustomApplication>

@@ -34,8 +34,8 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "customHeadTags" : "",
         "description" : "{!Record.Description}",
-        "metaTags" : "",
         "title" : "{!Record._Title}"
       },
       "componentName" : "forceCommunity:seoAssistant",

@@ -106,7 +106,12 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ProductClass</apexClass>
+        <apexClass>ProductTest</apexClass>
+        <enabled>false</enabled>
+<enabled>true</enabled>
+    </classAccesses>
+    <classAccesses> 
+      <apexClass>ProductClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -441,6 +446,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Custom_Order__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ProductPage</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
