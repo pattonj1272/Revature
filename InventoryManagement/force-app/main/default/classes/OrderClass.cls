@@ -80,12 +80,16 @@ public class OrderClass {
     }
     
     public static List<id> getProductIdsFromOrders(List<Custom_Order__c> orders){
+        System.debug('getProductIdsFromOrders0 ' + orders );
         List<id> ordersIds = getIdsFromOrders(orders);
-        List<Custom_Order__c> updated_orders_full_infomation = [SELECT Id, Product2__R.id FROM Custom_Order__c WHERE id in :ordersIds];
+        System.debug('getProductIdsFromOrders1 ' + ordersIds );
+        List<Custom_Order__c> updated_orders_full_infomation = [SELECT Id, Product2__R.id FROM Custom_Order__c WHERE id IN :ordersIds];
+        System.debug('getProductIdsFromOrders2 ' + updated_orders_full_infomation );
         List<id> productIds = new List<Id>();
         for (Custom_Order__c order : updated_orders_full_infomation){
             productIds.add(order.Product2__R.Id);
         }
+        System.debug('getProductIdsFromOrders3 ' + productIds );
         return productIds;
     }
 }

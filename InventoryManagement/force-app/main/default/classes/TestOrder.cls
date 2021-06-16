@@ -49,7 +49,11 @@ public class TestOrder {
         }
         new_Custom_Orders.add(new Custom_Order__c (quantity__c=10, Product2__c=newProducts[5].Id, Order_Status__c='Delivered', RecordTypeId=inbound_order_id));
         
-        insert new_Custom_Orders;
+        List<Database.SaveResult> results = Database.insert(new_Custom_Orders);
+        for (Database.SaveResult result : results){
+            system.debug(result + 'added');
+        }
+        
         
         Test.stopTest(); 
         
@@ -126,8 +130,10 @@ public class TestOrder {
         System.assertEquals(3, all_events.size());
 		List<Custom_Order__c> orders_to_delete = [SELECT id, Estimated_Recieve_Date_Start__c, Estimated_Recieve_Date_End__c FROM Custom_Order__c WHERE Estimated_Recieve_Date_Start__c != NULL and Estimated_Recieve_Date_End__c != NULL LIMIT 2];
         
-        delete orders_to_delete;  
-        
+        List<Database.DeleteResult> results = Database.delete(orders_to_delete);  
+        for (Database.DeleteResult result : results){
+            system.debug(result + 'Deleted');
+        }
         Test.stopTest(); 
         
         // Event 3 events created in make date 2 deleted here so should have 1 left

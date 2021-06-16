@@ -40,10 +40,10 @@
         <members>*</members>
         <name>Flow</name>
     </types>
-    <!--types>
-       <members>Get_approval_to_accept_or_delever_items3</members>
+    <types>
+       <members>Get_approval_to_accept_or_delever_items5</members>
        <name>ApprovalProcess</name>
-    </types>-->
+    </types>
     <types>
        <members>Inventory_Management</members>
        <name>CustomApplication</name>

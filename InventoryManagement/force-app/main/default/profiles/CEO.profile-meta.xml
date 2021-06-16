@@ -106,10 +106,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>NewOrderControllerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>OrderClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
