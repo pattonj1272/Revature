@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2c144313-673f-4ef7-b58c-cfd8b1e52539",
+  "appPageId" : "c61c230a-f4b9-4a1a-ad22-6799643998e2",
+  "configurationTags" : [ ],
+  "id" : "298188d5-9534-4908-baa9-1fa85e31bd45",
+  "label" : "RequestToSupply",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-requesttosupply",
+  "type" : "route",
+  "urlPrefix" : "requesttosupply"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "cd85d0b4-7825-4d5a-8c06-a23415380a5d",
+  "appPageId" : "c61c230a-f4b9-4a1a-ad22-6799643998e2",
+  "configurationTags" : [ ],
+  "id" : "8d34e0b8-f931-4ae3-ad79-51421fae230b",
+  "label" : "tmp",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-tmp",
+  "type" : "route",
+  "urlPrefix" : "tmp"
+}

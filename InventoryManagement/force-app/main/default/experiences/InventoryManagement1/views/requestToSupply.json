@@ -1,0 +1,49 @@
+{
+  "appPageId" : "c61c230a-f4b9-4a1a-ad22-6799643998e2",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "2c144313-673f-4ef7-b58c-cfd8b1e52539",
+  "label" : "RequestToSupply",
+  "regions" : [ {
+    "id" : "f8e40edb-7702-44d0-afe6-293192715ecc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "400",
+        "pageName" : "SupplyOrdersPage",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "93deeb28-b730-4b83-9ad0-ac068d62e6c5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0fd46cc8-3d56-492b-a62e-ff3978c7ccf8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "28bb377a-2b04-4fc1-9cbe-934e8f6f1c63",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "RequestToSupply"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6a248fff-e5d1-4fba-8342-59039bd402f3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "63c6cdd4-d28c-4644-bff1-e2548f889ccd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-requesttosupply"
+}

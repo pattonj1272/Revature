@@ -1,0 +1,49 @@
+{
+  "appPageId" : "c61c230a-f4b9-4a1a-ad22-6799643998e2",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "cd85d0b4-7825-4d5a-8c06-a23415380a5d",
+  "label" : "tmp",
+  "regions" : [ {
+    "id" : "00182f50-3d30-420d-8768-d702f28700a2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "650",
+        "pageName" : "Product",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "1ee8f24b-5d32-4569-a31f-5b8e1b71f8bb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dfc7da57-281e-413f-8829-b38eab434457",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "001f28b4-4a11-4245-8ebc-1c7645ab193e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "tmp"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6b48b8ed-c4df-4161-a8d5-d0968fdb1a8b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a98ccba4-4249-4563-b613-40353223df8c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-tmp"
+}
