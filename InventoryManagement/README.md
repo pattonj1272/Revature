@@ -87,7 +87,7 @@ Good luck on porting over site, I rebuilt and added pages so some details on set
    
 ## Usage
 
-> Set up Inventory management to be default application, add tabs Approval proccess, Products, PriceBook, PriceBookEntry, and ensure copy link to sitbuilder site and bookmark it.
+> Set up Inventory management to be default application, add tabs Approval proccess, Products, PriceBook, PriceBookEntry, and ensure copy link to sitebuilder site and bookmark it.
 
 ## Contributors
 
