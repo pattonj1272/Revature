@@ -67,7 +67,7 @@ To fix can’t change org wide default sharing  for product
 This record wh.asset resource isn’t in the target org
   Delete wh.asset and associated meta data
   
-In field: siteAdmin - no user name ???@email.com found
+In field: siteAdmin - no user name example@email.com found
      Replace email in Inventory management.site-meta (line 25 and 26) and inventoryManagement.network-meta (line 8) emails with email for log in
      
      
