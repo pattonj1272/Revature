@@ -91,9 +91,9 @@ Good luck on porting over site, I rebuilt and added pages so some details on set
 
 ## Contributors
 
-> Nathan Tellez
-> Laurent Sanou
-> Saif Sayed
+> Nathan Tellez,
+> Laurent Sanou,
+> Saif Sayed, and 
 > James Patton
 
 ## License
