@@ -93,7 +93,7 @@ Good luck on porting over site, I rebuilt and added pages so some details on set
 
 > Nathan Tellez,
 > Laurent Sanou,
-> Saif Sayed, and 
+> Saief Sayed, and 
 > James Patton
 
 ## License
